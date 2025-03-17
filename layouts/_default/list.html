@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <style>
+    .post-container {
+      background-color: #f9f9f9; /* 記事の背景 */
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+
+  {{ range .Site.RegularPages }}
+    <article class="post-container">
+      <h2>{{ .Title }}</h2>
+      <p><time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time></p>
+      <div>
+        {{ .Content }}
+      </div>
+    </article>
+  {{ end }}
+{{ end }}
