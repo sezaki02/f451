@@ -1,6 +1,23 @@
-html, body {
-  background-color: #c9d3d9 !important;
+
+/* ライトモード時に背景色を変更 */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #c9d3d9 !important; /* ライトモード用の背景色 */
+  }
 }
+
+/* ナイトモード時に背景色を強制 */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000 !important; /* ナイトモード用の背景色 */
+  }
+}
+
+/* ダークモード時に背景色を変更 */
+body.dark {
+  background-color: #000000 !important; /* ダークモード用の背景色 */
+}
+
 
 
 article {
@@ -47,7 +64,7 @@ article p {
 /* スマホ表示時にテキストが横幅いっぱいに広がるように */
 @media (max-width: 768px) {
   .post-content {
-    font-size: 0.9rem; /* スマホで少し小さく */
+    font-size: 1.1rem; /* スマホで少し小さく */
     padding: 0; /* サイドの余白をなくす */
     margin: 0;  /* サイドの余白をなくす */
     width: 100%; /* 横幅いっぱいに広げる */

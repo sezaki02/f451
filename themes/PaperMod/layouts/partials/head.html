@@ -9,6 +9,9 @@
 
 {{- /* Title */}}
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/theme-vars.css" | absURL }}">
+
 
 {{- /* Meta */}}
 {{- if .IsHome }}
