@@ -6,17 +6,6 @@
   }
 }
 
-/* ナイトモード時に背景色を強制 */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000000 !important; /* ナイトモード用の背景色 */
-  }
-}
-
-/* ダークモード時に背景色を変更 */
-body.dark {
-  background-color: #000000 !important; /* ダークモード用の背景色 */
-}
 
 
 
