@@ -1,3 +1,8 @@
+html, body {
+  background-color: #c9d3d9 !important;
+}
+
+
 article {
   background-color: #f9f9f9;  /* 明るいグレー */
   padding: 20px;
@@ -42,7 +47,7 @@ article p {
 /* スマホ表示時にテキストが横幅いっぱいに広がるように */
 @media (max-width: 768px) {
   .post-content {
-    font-size: 0.885rem; /* スマホで少し小さく */
+    font-size: 0.9rem; /* スマホで少し小さく */
     padding: 0; /* サイドの余白をなくす */
     margin: 0;  /* サイドの余白をなくす */
     width: 100%; /* 横幅いっぱいに広げる */
