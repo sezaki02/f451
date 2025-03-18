@@ -22,7 +22,7 @@ article {
 
 
 .post-content p {
-  font-size: 1rem !important; /* 14px相当 */
+  font-size: 1rem !important;
 }
 
 .post-content {
@@ -49,7 +49,7 @@ article p {
 /* スマホ表示時にテキストが横幅いっぱいに広がるように */
 @media (max-width: 768px) {
   .post-content {
-    font-size: 1.1rem; /* スマホで少し小さく */
+    font-size: 1.5rem; 
     padding: 0; /* サイドの余白をなくす */
     margin: 0;  /* サイドの余白をなくす */
     width: 100%; /* 横幅いっぱいに広げる */
