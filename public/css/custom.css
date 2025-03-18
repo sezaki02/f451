@@ -1,10 +1,6 @@
 
-/* ライトモード時に背景色を変更 */
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #c9d3d9 !important; /* ライトモード用の背景色 */
-  }
-}
+
+
 
 
 
