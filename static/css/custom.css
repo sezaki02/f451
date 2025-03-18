@@ -49,7 +49,7 @@ article p {
 /* スマホ表示時にテキストが横幅いっぱいに広がるように */
 @media (max-width: 768px) {
   .post-content {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     padding: 0; /* サイドの余白をなくす */
     margin: 0;  /* サイドの余白をなくす */
     width: 100%; /* 横幅いっぱいに広げる */
@@ -65,7 +65,7 @@ article p {
     width: 100%; /* 横幅いっぱいに広げる */
     padding: 0;  /* 必要に応じて左右の余白をなくす */
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .main.main {
