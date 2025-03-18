@@ -1,0 +1,15 @@
+{{ $url := .Get "url" }}
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $image := .Get "image" }}
+
+<a href="{{ $url }}" target="_blank" class="link-card">
+  <div class="link-card-content">
+    <img src="{{ $image }}" alt="Thumbnail" class="link-card-img">
+    <div class="link-card-text">
+      <h3>{{ $title }}</h3>
+      <p>{{ $description }}</p>
+      <span>{{ $url }}</span>
+    </div>
+  </div>
+</a>

@@ -1,0 +1,16 @@
+{{ $title := .Get "title" }}
+{{ $url := .Get "url" }}
+{{ $desc := .Get "desc" }}
+{{ $image := .Get "image" }}
+{{ $site := .Get "site" }}
+
+<a href="{{ $url }}" class="fb-card">
+  <div class="fb-card-img-container">
+    <img src="{{ $image }}" alt="{{ $title }}" class="fb-card-img">
+  </div>
+  <div class="fb-card-content">
+    <span class="fb-card-site">{{ $site }}</span>
+    <h3 class="fb-card-title">{{ $title }}</h3>
+    <p class="fb-card-desc">{{ $desc }}</p>
+  </div>
+</a>
