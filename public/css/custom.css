@@ -139,6 +139,47 @@ article p {
   color: #555;
 }
 
+/*コードブロックのデザイン*/
+
+pre {
+    max-height: 300px; /* 好きな高さに調整 */
+    overflow-y: auto;  /* 縦スクロールを有効化 */
+    border-radius: 8px; /* 角丸をつける（オプション） */
+}
+
+/*画像のグリッド*/
+
+.image-grid {
+    display: grid !important;
+    gap: 8px !important;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+}
+
+
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* 角を丸くする（オプション） */
+}
+
+
+/*フルワイド*/
+
+.full-width-img {
+    width: calc(100% + 32px); /* 親要素のパディング分を加算 */
+    max-width: none; /* サイズ制限を解除 */
+    display: block;
+    margin-left: -16px; /* 親要素のパディングを打ち消す */
+    margin-right: -16px; /* 親要素のパディングを打ち消す */
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 /* スマホ表示時にテキストが横幅いっぱいに広がるように */
 @media (max-width: 768px) {
@@ -148,6 +189,8 @@ article p {
     margin: 0;  /* サイドの余白をなくす */
     width: 100%; /* 横幅いっぱいに広げる */
   }
+
+
 
   /* もしポスト全体に枠があれば、その枠をなくす */
   .post {

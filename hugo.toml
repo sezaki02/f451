@@ -17,3 +17,8 @@ apple_touch_icon = "apple-touch-icon.png"
   name = "Bluesky.social"
   url = "https://bsky.app/profile/havexit.bsky.social"
   weight = 30
+
+  [markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
