@@ -2,27 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SUIEND</title>
-    <link>https://suiend.netlify.app/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on SUIEND</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Mar 2025 09:28:16 +0900</lastBuildDate>
-    <atom:link href="https://suiend.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Mar 2025 17:34:16 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THE AMERICANS</title>
+      <link>http://localhost:1313/posts/card/</link>
+      <pubDate>Wed, 19 Mar 2025 17:34:16 +0900</pubDate>
+      <guid>http://localhost:1313/posts/card/</guid>
+      <description>&lt;p&gt;&lt;figure class=&#34;full-width-img&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/DSC02420.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+このあいだどこかで「SNSで目立つためにやりたくもない写真加工をしている」というコメントを見かけて、そういう生き方もあるんだなあと思うなどした。自分は加工をこれまであまり熱心にやってこなかったからPhotoshopも全然使いこなせないし、できるようになったらもっと何かが楽しくなるんだろうなとは思っているけれど、先の人のように精神的にもまた強いられるようになれば別かもしれないが、現状は必要性がないんだよなあというところで落ち着いてしまう。&lt;/p&gt;
+&lt;p&gt;自分の撮った写真を振り返る時、やっぱり人の写っている写真はとてもいいものだなあと思う。街撮り以外にも知り合いなんかの写真を撮る機会が多いんだけれど、撮ったものを見てその人が「いい写真だ」と言ってくれることが嬉しいと思う。写真はその人の全てを語ることはできないけれど、自分でさえ知らない瞬間が存在したことをフレームの中に残す。いいか悪いかはわからないけど。それが全てじゃないかと思う。写真を作ることは楽しいし、クオリティも印象も上げることができるけれど、本質がそこにあるとは思えない。私は自分のカメラのこともフィルムも信頼しているし、そこにいる人がとても素晴らしい、だから自分が過度に何かをする必要は全然ないと思っている。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tumblr BFF</title>
-      <link>https://suiend.netlify.app/posts/tbr/</link>
+      <link>http://localhost:1313/posts/tbr/</link>
       <pubDate>Tue, 18 Mar 2025 09:28:16 +0900</pubDate>
-      <guid>https://suiend.netlify.app/posts/tbr/</guid>
+      <guid>http://localhost:1313/posts/tbr/</guid>
       <description>&lt;p&gt;Tumblrのことが大好きでここ十年くらい使っている。おもに「日記」タグユーザーをフォローしたりしてかなり楽しく使っていたんだけど、三年前くらいにアクティブユーザーが急増した時期があって、それと同時に急増したスパムアカウントへの対処に疲れて離れてしまった経緯がある。スパムアカウント諸氏、フォローしてくるだけならまだしもポストにコメントしてきたりしてなんとか視界に入ろうとしてくるのと、それが一日何十件ものアカウントからリアクションが来るので本当に対応が大変だった。ある時を境に激減した感じはあるが、かれらは全然まだ元気でTumblrに生きていることを薄目で観測している。&lt;/p&gt;
 &lt;p&gt;ここはTumblrのオフィシャルテーマみたいなレイアウトにしたいなと思って手をつけたけど、やればやるほどTumblrってよくできてるんだな……こんなのイチから（一からではないけど）やるもんじゃねーなという感想になる。でもやっぱりこれが一般的なサマリー表示のブログレイアウトだとかしこまって記事を書かないといけないような気がするから、こういうSNS的な全文表示＝気楽なもの、という気がしてホッとするのかもな。&lt;/p&gt;</description>
     </item>
     <item>
       <title>KCO 第141回定期演奏会</title>
-      <link>https://suiend.netlify.app/posts/1/</link>
+      <link>http://localhost:1313/posts/1/</link>
       <pubDate>Sun, 16 Mar 2025 08:35:35 +0900</pubDate>
-      <guid>https://suiend.netlify.app/posts/1/</guid>
+      <guid>http://localhost:1313/posts/1/</guid>
       <description>&lt;figure class=&#34;full-width-img&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://suiend.netlify.app/images/DSC02460.JPG&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/DSC02460.JPG&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;p&gt;金曜夜公演に行ってきた。演出が現代アレンジだったのと、ホール全体を使っての動きがありとても面白かった。トレヴァーピノックはマジで七八歳とは思えない体幹の安定ぶりで、まあ音楽家は体力あると思うけどさすがだった。&lt;/p&gt;
@@ -32,9 +44,9 @@
     </item>
     <item>
       <title>Hyperion</title>
-      <link>https://suiend.netlify.app/posts/hyperion/</link>
+      <link>http://localhost:1313/posts/hyperion/</link>
       <pubDate>Thu, 13 Mar 2025 16:22:38 +0900</pubDate>
-      <guid>https://suiend.netlify.app/posts/hyperion/</guid>
+      <guid>http://localhost:1313/posts/hyperion/</guid>
       <description>&lt;a href=&#34;https://www.hayakawa-online.co.jp/shop/g/g0000610618/&#34; class=&#34;fb-card&#34;&gt;
   &lt;div class=&#34;fb-card-img-container&#34;&gt;
     &lt;img src=&#34;https://www.hayakawa-online.co.jp/img/goods/L/610618.jpg&#34; alt=&#34;ハイペリオン 上&#34; class=&#34;fb-card-img&#34;&gt;
@@ -50,19 +62,19 @@
     </item>
     <item>
       <title>MEMOSからTHINOにかえた</title>
-      <link>https://suiend.netlify.app/posts/thino/</link>
+      <link>http://localhost:1313/posts/thino/</link>
       <pubDate>Mon, 10 Mar 2025 17:31:17 +0900</pubDate>
-      <guid>https://suiend.netlify.app/posts/thino/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;説明文&#34; loading=&#34;lazy&#34; src=&#34;https://suiend.netlify.app/images/ob.jpg&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/posts/thino/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;説明文&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/ob.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;いきなり「あと」とか言っているのは置いておくとして、THINOの存在をたまたま知ってインストールしようとしたら既にインストール済みだったのでころげる。MEMOSよりもさらに見た目が洗練された感じになっていてよい。シェア用のカードも何種類かのデザインから選べるようになっていて面白い（上の画像はCLEARだったかな）。一生自分と会話しているタイプの人間なので、MEMOSに出会ってからずっとここで一人Twitterを展開している。SNSって「気軽に呟く」ことに便利だから使うと思うんだけど「これがローカルでできたらいいのに」とずっと思っていたのでMEMOS（THINO）のような存在は本当にありがたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hania Rani JAPAN LIVE</title>
-      <link>https://suiend.netlify.app/posts/2/</link>
+      <link>http://localhost:1313/posts/2/</link>
       <pubDate>Thu, 27 Feb 2025 10:10:24 +0900</pubDate>
-      <guid>https://suiend.netlify.app/posts/2/</guid>
+      <guid>http://localhost:1313/posts/2/</guid>
       <description>&lt;p&gt;&lt;figure class=&#34;full-width-img&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://suiend.netlify.app/images/IMG_7425.JPG&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/IMG_7425.JPG&#34;/&gt; 
 &lt;/figure&gt;
 
 2/17のHania Rani JAPAN LIVE、本当に素晴らしいパフォーマンスでめちゃくちゃ最高以外の言葉を喪失するというか本当にひたすら感動しました（語彙無）。&lt;/p&gt;
