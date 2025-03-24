@@ -1,0 +1,12 @@
+name: Scheduled Netlify Build
+
+on:
+  schedule:
+    - cron: "0 11 * * *"  # 毎時 0分に実行（変更可能）
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify Build
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/https://api.netlify.com/build_hooks/67e1f045da73b839ea2f42fd
