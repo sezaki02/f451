@@ -1,6 +1,6 @@
 +++
 date = '2025-03-25T19:47:16+09:00'
-draft = true
+draft = false
 title = 'エミール・ガレ　憧憬のパリ'
 +++
 
