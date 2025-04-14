@@ -12,10 +12,21 @@
   {{ range .Site.RegularPages }}
     <article class="post-container">
       <h2>{{ .Title }}</h2>
-      <p><time datetime="{{ .Date }}">{{ .Date.Format "2006-01-02" }}</time></p>
+      <p style="text-align: left; color: #999; margin-top: 0.5rem; margin-bottom: 0;">
+    ✒︎ {{ .Date.Format "2006-01-02" }}
+    </p>
       <div>
         {{ .Content }}
       </div>
+      {{- with .Params.tags }}
+        <ul class="post-tags">
+          {{- range . }}
+            <li><a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+          {{- end }}
+        </ul>
+      {{- end }}
+
+
     </article>
   {{ end }}
 {{ end }}

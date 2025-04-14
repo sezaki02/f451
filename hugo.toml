@@ -1,6 +1,6 @@
 baseURL = 'https://suiend.netlify.app/'
 languageCode = 'en-us'
-title = 'SUIEND'
+title = 'F451'
 theme = "PaperMod"
 
 
@@ -10,11 +10,17 @@ favicon16x16 = "favicon-16x16.png"
 favicon32x32 = "favicon-32x32.png"
 apple_touch_icon = "apple-touch-icon.png"
 
+taxonomies = { tag = "tags", category = "categories" }
 
 
 
   [[menu.main]]
-  name = "Bluesky.social"
+  name = "Fedibird"
+  url = "https://bsky.app/profile/havexit.bsky.social"
+  weight = 30
+
+  [[menu.main]]
+  name = "Wavebox"
   url = "https://bsky.app/profile/havexit.bsky.social"
   weight = 30
 
