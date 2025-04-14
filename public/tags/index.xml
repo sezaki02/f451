@@ -15,19 +15,5 @@
       <guid>https://fht451.netlify.app/tags/mi/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Tag2</title>
-      <link>https://fht451.netlify.app/tags/tag2/</link>
-      <pubDate>Mon, 14 Apr 2025 09:42:57 +0900</pubDate>
-      <guid>https://fht451.netlify.app/tags/tag2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag3</title>
-      <link>https://fht451.netlify.app/tags/tag3/</link>
-      <pubDate>Mon, 14 Apr 2025 09:42:57 +0900</pubDate>
-      <guid>https://fht451.netlify.app/tags/tag3/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
