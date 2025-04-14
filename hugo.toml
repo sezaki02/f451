@@ -1,6 +1,6 @@
-baseURL = 'https://suiend.netlify.app/'
+baseURL = 'https://fht451.netlify.app/'
 languageCode = 'en-us'
-title = 'F451'
+title = 'Fht451'
 theme = "PaperMod"
 
 
@@ -16,12 +16,12 @@ taxonomies = { tag = "tags", category = "categories" }
 
   [[menu.main]]
   name = "Fedibird"
-  url = "https://bsky.app/profile/havexit.bsky.social"
+  url = "https://fedibird.com/@cinemahole"
   weight = 30
 
   [[menu.main]]
   name = "Wavebox"
-  url = "https://bsky.app/profile/havexit.bsky.social"
+  url = "https://wavebox.me/wave/9deo799z47e4qr54/"
   weight = 30
 
   [markup]
