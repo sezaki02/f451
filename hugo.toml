@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Fht451'
 theme = "PaperMod"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [params.assets]
 favicon = "favicon.ico"
@@ -10,21 +13,21 @@ favicon16x16 = "favicon-16x16.png"
 favicon32x32 = "favicon-32x32.png"
 apple_touch_icon = "apple-touch-icon.png"
 
-taxonomies = { tag = "tags", category = "categories" }
 
 
 
-  [[menu.main]]
-  name = "Fedibird"
-  url = "https://fedibird.com/@cinemahole"
-  weight = 30
 
-  [[menu.main]]
-  name = "Wavebox"
-  url = "https://wavebox.me/wave/9deo799z47e4qr54/"
-  weight = 30
+[[menu.main]]
+name = "Fedibird"
+url = "https://fedibird.com/@cinemahole"
+weight = 30
 
-  [markup]
-    [markup.goldmark]
-      [markup.goldmark.renderer]
-        unsafe = true
+[[menu.main]]
+name = "Wavebox"
+url = "https://wavebox.me/wave/9deo799z47e4qr54/"
+weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
