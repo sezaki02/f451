@@ -62,20 +62,19 @@
       <link>https://fht451.netlify.app/posts/secret-241115/</link>
       <pubDate>Fri, 15 Nov 2024 06:55:29 +0900</pubDate>
       <guid>https://fht451.netlify.app/posts/secret-241115/</guid>
-      <description>&lt;div id=&#34;protected-content&#34;&gt;
-&lt;input type=&#34;password&#34; id=&#34;passwordInput&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 300px;&#34;&gt;
-
-
-  &lt;button onclick=&#34;checkPassword()&#34;&gt;表示&lt;/button&gt;
-  &lt;p id=&#34;error&#34; style=&#34;color:red; display:none;&#34;&gt;パスワードが違います。&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;secret-content&#34; style=&#34;display: none;&#34;&gt;
+      <description>&lt;div id=&#34;passwordProtected-b&#34;&gt;
+  &lt;input type=&#34;password&#34; id=&#34;passwordInput-b&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 300px;&#34;&gt;
+  &lt;button onclick=&#34;checkPassword(&#39;b&#39;)&#34;&gt;送信&lt;/button&gt;
+  &lt;p id=&#34;errorMessage-b&#34;&gt;&lt;/p&gt;
+  &lt;div id=&#34;protectedContent-b&#34; style=&#34;display:none;&#34;&gt;
+    
 &lt;p&gt;あの〜〜フォロワーさんのポストを拝見して知ってしまったのですが、公式のイーベン画像のポストについたリプライに公式さんが’Ethan and Benji together can make the impossible possible.’って返信してくれているんですね。これはつまり「一人一人は単なる火でも二つ合わされば炎となり、炎となったガンバスターは無敵」理論が公式の見解としてもこの二人のあいだに生じていると理解していいのか？　二人なら不可能を可能にできるっていうのはそれくらいの文脈で使ってくれないと困る（勝手に困るオタク仕草をやめろ）のですが、全然ナチュラルにそういうことだと思うので、私はもうこの公式のことがわからなくなってきました。&lt;/p&gt;
 
 &lt;p&gt;だけどローグネイションで蒔いた種がこんな大きな穂となり収穫されていくとは感慨深いですね。「二人が一緒なら不可能も可能になる」っていうのは、オタクども（主語大）にしてみればずっとそう思ってきたことではあるんだけど、それを公式が言い出す日が来るとは思わないわけで……。なんだろうな。ベンジーはイーサンのことが大事だし大好きだけど、イーサンにとってもベンジーは人生に大きな変化と気づきをもたらした存在だったんだということを改めて感じさせられます。それってもちろん本編中で今までずっと語られてきたことではあるし、オタクの認知の歪みを差し引いても「知ってた」と断言しますけど、それをガチなテンションで語られる時が来るとはさすがに思っていなかったというか……。&lt;/p&gt;
 
 &lt;p&gt;問題の（問題視）シーンが具体的になんなのかはわかりませんが、何が起きて起こるにせよ、あのシーンの二人には二人の間だけの選択と了解があって、それは紛れもなく二人の友情が生み出すものなんだってわかるのが本当に泣けるし、イーサンはたくさんのものを手放して生きてきたけど、なくしてきたばかりじゃなかったよねっていうのをあの絵だけで全部説明していてもういやだ、この映画……。本当に8はなんの答え合わせに入ってるんですか？？&lt;/p&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;script src=&#34;https://fht451.netlify.app/js/password.js&#34;&gt;&lt;/script&gt;</description>
@@ -95,19 +94,18 @@
       <link>https://fht451.netlify.app/posts/secret-241112/</link>
       <pubDate>Tue, 12 Nov 2024 06:55:29 +0900</pubDate>
       <guid>https://fht451.netlify.app/posts/secret-241112/</guid>
-      <description>&lt;div id=&#34;protected-content&#34;&gt;
-&lt;input type=&#34;password&#34; id=&#34;passwordInput&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 300px;&#34;&gt;
-
-
-  &lt;button onclick=&#34;checkPassword()&#34;&gt;表示&lt;/button&gt;
-  &lt;p id=&#34;error&#34; style=&#34;color:red; display:none;&#34;&gt;パスワードが違います。&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;secret-content&#34; style=&#34;display: none;&#34;&gt;
-  &lt;p&gt;８の予告編を見たら完全に情緒が終わってしまい、今はただわけもわからず「すみません……」の感情しか出てこないのですが、とりあえずイーベンって俺たちが思っていたよりだいぶ「現実」だったことに泡を吹いて倒れたため、もはや本編が公開しても劇場に足を運べるかどうかの瀬戸際にあり、それ自体がミッションインポッシブルになってしまってどうする！　オタク、しっかりしてくれ！！　という次第です。&lt;/p&gt;
+      <description>&lt;div id=&#34;passwordProtected-a&#34;&gt;
+  &lt;input type=&#34;password&#34; id=&#34;passwordInput-a&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 300px;&#34;&gt;
+  &lt;button onclick=&#34;checkPassword(&#39;a&#39;)&#34;&gt;送信&lt;/button&gt;
+  &lt;p id=&#34;errorMessage-a&#34;&gt;&lt;/p&gt;
+  &lt;div id=&#34;protectedContent-a&#34; style=&#34;display:none;&#34;&gt;
+    
+&lt;p&gt;８の予告編を見たら完全に情緒が終わってしまい、今はただわけもわからず「すみません……」の感情しか出てこないのですが、とりあえずイーベンって俺たちが思っていたよりだいぶ「現実」だったことに泡を吹いて倒れたため、もはや本編が公開しても劇場に足を運べるかどうかの瀬戸際にあり、それ自体がミッションインポッシブルになってしまってどうする！　オタク、しっかりしてくれ！！　という次第です。&lt;/p&gt;
 
 
 &lt;p&gt;ハントくんが自分の人生で選択してきたことの積み重ね、その集大成と行く末を見せられることにとても耐えられる気がしないし、やっぱりこの映画ハントくんと世界との壮大なギブアンドテイク物語だったのかもしれん……いやそういう自分の謎考察に対して確信を深めてどうするんだみたいなところはありつつ、なんかもう最終的にはハントくんがあまりに美し過ぎて、言葉にできないや。楽しいことを考えよう。ダンローくんにまた会えるのは楽しみにしたいですね。あとキトリッジくんが元気そうで良かったです。パリスも元気いっぱいになっていて良かった！！！（24.11.12）&lt;/p&gt;
+
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;script src=&#34;https://fht451.netlify.app/js/password.js&#34;&gt;&lt;/script&gt;</description>

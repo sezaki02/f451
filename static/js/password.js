@@ -1,11 +1,13 @@
-function checkPassword() {
-  const input = document.getElementById("passwordInput").value;
+function checkPassword(id) {
+  const correctPassword = "rps801"; // 各記事で動的に変えてもOK
+  const input = document.getElementById("passwordInput-" + id).value;
+  const error = document.getElementById("errorMessage-" + id);
+  const content = document.getElementById("protectedContent-" + id);
 
-  // ↓ ここがパスワード！ここを書き換える！
-  if (input === "rps801") {
-    document.getElementById("protected-content").style.display = "none";
-    document.getElementById("secret-content").style.display = "block";
+  if (input === correctPassword) {
+    content.style.display = "block";
+    error.textContent = "";
   } else {
-    document.getElementById("error").style.display = "block";
+    error.textContent = "パスワードが違います。";
   }
 }
