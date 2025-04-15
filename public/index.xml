@@ -63,7 +63,7 @@
       <pubDate>Fri, 15 Nov 2024 06:55:29 +0900</pubDate>
       <guid>https://fht451.netlify.app/posts/secret-241115/</guid>
       <description>&lt;div id=&#34;passwordProtected-b&#34;&gt;
-  &lt;input type=&#34;password&#34; id=&#34;passwordInput-b&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 300px; box-sizing: border-box;&#34;&gt;
+  &lt;input type=&#34;password&#34; id=&#34;passwordInput-b&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 250px; box-sizing: border-box;&#34;&gt;
   &lt;button onclick=&#34;checkPassword(&#39;b&#39;)&#34;&gt;送信&lt;/button&gt;
   &lt;p id=&#34;errorMessage-b&#34;&gt;&lt;/p&gt;
   &lt;div id=&#34;protectedContent-b&#34; style=&#34;display:none;&#34;&gt;
@@ -95,7 +95,7 @@
       <pubDate>Tue, 12 Nov 2024 06:55:29 +0900</pubDate>
       <guid>https://fht451.netlify.app/posts/secret-241112/</guid>
       <description>&lt;div id=&#34;passwordProtected-a&#34;&gt;
-  &lt;input type=&#34;password&#34; id=&#34;passwordInput-a&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 300px; box-sizing: border-box;&#34;&gt;
+  &lt;input type=&#34;password&#34; id=&#34;passwordInput-a&#34; placeholder=&#34;パスワードを入力（例の三文字＋数字）&#34; style=&#34;width: 100%; max-width: 250px; box-sizing: border-box;&#34;&gt;
   &lt;button onclick=&#34;checkPassword(&#39;a&#39;)&#34;&gt;送信&lt;/button&gt;
   &lt;p id=&#34;errorMessage-a&#34;&gt;&lt;/p&gt;
   &lt;div id=&#34;protectedContent-a&#34; style=&#34;display:none;&#34;&gt;
