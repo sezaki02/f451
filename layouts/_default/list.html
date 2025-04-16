@@ -1,7 +1,7 @@
 {{ define "main" }}
   <style>
     .post-container {
-      background-color: #f9f9f9; /* 記事の背景 */
+      background-color: #f9f9f9;
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 20px;
@@ -9,10 +9,17 @@
     }
   </style>
 
+  {{ with site.Params.homeInfoParams }}
+    <div class="home-info" style="margin-bottom: 40px;">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Content }}</p>
+    </div>
+  {{ end }}
+
   {{ range .Site.RegularPages }}
     <article class="post-container">
       <h2>{{ .Title }}</h2>
-      
+
       <div>
         {{ .Content }}
       </div>
@@ -23,8 +30,6 @@
           {{- end }}
         </ul>
       {{- end }}
-
-
     </article>
   {{ end }}
 {{ end }}

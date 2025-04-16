@@ -12,8 +12,6 @@ input[type="password"] {
 
 
 
-
-
 article {
   background-color: #f9f9f9;  /* 明るいグレー */
   padding: 20px;
@@ -27,11 +25,16 @@ article {
   margin: 0 auto; /* 中央寄せ */
 }
 
-
+.post-decoration {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1.2rem 0;
+  margin-bottom: 1.5rem;
+}
 
 
 .post-content p {
-  font-size: 1rem !important;
+  font-size: 1rem;
 }
 
 .post-content {
@@ -42,6 +45,7 @@ article {
 .post-content img {
     margin-bottom: 20px !important;  /* 画像の下に20pxの余白を追加 */
 }
+
 
 /* Post title */
 h1.post-title, h2.post-title, h3.post-title {
