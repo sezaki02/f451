@@ -6,8 +6,17 @@
     <description>Recent content on Fht451</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Apr 2025 15:47:26 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Apr 2025 06:47:35 +0900</lastBuildDate>
     <atom:link href="https://fht451.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://fht451.netlify.app/posts/250416/</link>
+      <pubDate>Wed, 16 Apr 2025 06:47:35 +0900</pubDate>
+      <guid>https://fht451.netlify.app/posts/250416/</guid>
+      <description>&lt;p&gt;特定記事にパスワード制を仮実装してみています。当初はBasic認証をかけるつもりだったのですが、Netlifyでやろうとすると有料プランに加入する必要があるので一旦諦めました。他のホスティングサービスでは無料枠でBasic認証が利用できるところもあるみたいなのですが、とりあえず簡易的にでもワンクッションが動作すればいいか〜という考えに至ったので現状の形になっています。てがろぐやFedibirdなどとも比較しつつ、どういう利用方法が快適なのか試行錯誤していきたいです。&lt;/p&gt;
+&lt;p&gt;今回パスワードを実装しようとして初めて知ったんですが、スマートフォンで入力フォームなどをタップすると強制的にズームがかかってしまうんですね。iOSの場合はフォーム内（と言っていいのか）のフォントが一定サイズ以下だとそうなってしまうようです。そうなるとズームに合わせて画面幅が再計算されてしまい、画面の固定化が外れてしまうことがわかりました。そのため確認できる範囲で最適サイズを指定していますが、不具合などありましたら教えて頂けると助かります。&lt;/p&gt;
+&lt;p&gt;このブログ自体は先に運用している別ブログからベースをそのまま持ってきたので構築自体はとてもスムーズだったのですが、そちらのブログも含めてまだまだ未完成の状態です。閲覧して頂く際にも気になる点が多いかと思うのですがご容赦頂きたく……。ぼちぼち改良していきたいなと思っています。ナイトモードの色調とかすごく後回しになっている！わー！&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>https://fht451.netlify.app/posts/250414-2/</link>
